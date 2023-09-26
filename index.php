@@ -47,6 +47,7 @@ $number = 8;
 $result = factorial($number);
 echo "The factorial of $number is $result";
 
+
 // 4
 function fibonacci($n) {
     $num = array(0, 1);
@@ -64,6 +65,5 @@ function fibonacci($n) {
         $num[1] = $temp;
     }
 }
-fibonacci(10)
-
+fibonacci(10);
 ?>
